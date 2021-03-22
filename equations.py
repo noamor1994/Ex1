@@ -33,9 +33,8 @@ def exponent (X):
     except:
         return 0.0
 
-##levade shein minusim o afasim bafunkzia
 
-def ln (X):
+def Ln (X):
     try:
         Yn= X-1.0
         YnPlus1= Yn+2*((X-exponent(Yn))/(X+exponent(Yn))) 
@@ -51,7 +50,7 @@ def XtimesY(X, Y):
     try:
         resultTimes= 0.0
         if X>0:
-            resultTimes=exponent((Y*ln(X)))
+            resultTimes=exponent((Y*Ln(X)))
         return float('%0.6f' % resultTimes)
     except:
         return 0.0
