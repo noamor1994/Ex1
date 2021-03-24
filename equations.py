@@ -79,20 +79,3 @@ def calculate (X):
        return float('%0.6f' % result)      
    except:
         return 0.0                               
-    
-    
-x=float(input('>'))
-y=float(input('>'))
-print('')
-print(exponent(x))
-print(Ln(x))
-print(XtimesY(x,y))
-print(sqrt(x,y))
-print(calculate(x))
-print('----------------------------------------------------')
-import math
-print(math.exp(x))
-print('')
-print(x**y)
-print(y**(1/x))
-print(math.exp(x)*(7**x)*(x**-1)*(x**(1/x)))
